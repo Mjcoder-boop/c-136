@@ -1,0 +1,30 @@
+#heading{
+    width: 100%;
+    margin-top: 0px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+#object{
+    color: antiquewhite;
+}
+#footer{
+    background-color: rgb(57, 250, 89);
+   bottom: 0;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 20px;
+}
+canvas{
+    animation-name: dog;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    margin-top: 30px;
+    
+    }
+    
+    @keyframes dog{
+        from{box-shadow: 1px 1px 30px rgb(110, 240, 4);}
+        to{box-shadow: 1px 1px 30px rgb(223, 36, 223);}
+    }
